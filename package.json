@@ -1,0 +1,31 @@
+{
+  "name": "firefunctions",
+  "version": "0.1.0",
+  "description": "Some common Firebase Functions.",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "main": "lib/index.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzo-santos/firefunctions.git"
+  },
+  "keywords": [
+    "firebase"
+  ],
+  "author": "enzo-santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enzo-santos/firefunctions/issues"
+  },
+  "homepage": "https://github.com/enzo-santos/firefunctions",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.10.1",
+    "firebase-functions": "^4.4.1"
+  }
+}
